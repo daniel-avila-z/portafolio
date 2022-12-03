@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('../assets/img/wallpaper-astronaut.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: calc(100vh - 140px) */
+}
+/* .grid-container{
+    max-width: 1280px;
+    margin: auto;
+} */
+a{
+    text-decoration: none;
+    display: inline;
+    color: rgb(0, 0, 0);
+}
+/* Main */
+.profile-main-name{
+    text-align: center;
+}
+.profile-main-name span{
+    text-shadow: 2px 1px 0px rgb(0 187 255);
+    font-size: 3rem;
+}
+.profile-main-container{
+    padding: 70px 40px;
+    background: linear-gradient(0deg, rgb(185 221 255) 0%, rgb(185 221 255) 100%);
+    margin-bottom: 0px;
+}
+.profile-main-container img{
+    width: 320px;
+    height: 306px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+.profile-main-container .profile-container{
+    display: flex;
+}
+/* .profile-main-projects{
+    padding: 0 50px 40px;
+} */

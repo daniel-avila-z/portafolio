@@ -1,0 +1,9 @@
+{
+    "presets": [
+        "@babel/preset-env", //compila ES5 ES6 Y JS Moderno
+        "@babel/preset-react" //Trabaja con JSX 
+    ]
+    // "plugins":[
+    //     "@babel/plugin-transform-runtime"
+    //   ]
+}
