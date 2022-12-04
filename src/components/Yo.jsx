@@ -9,7 +9,7 @@ const Yo = () => {
     </div>
     <section className="profile-main-container">
         <div className="grid-container  profile-container">
-            <div>
+            <div className="profile-main-foto-container">
                 <img src={fotoPerfil} alt="" />
             </div>
             <div>

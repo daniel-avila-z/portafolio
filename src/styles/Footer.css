@@ -29,3 +29,39 @@ footer p{
     color: white;
     margin-top: 30px;
 }
+
+@media (max-width:900px) {
+    /* Blogs */
+    .blogs-main-new{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+    .blogs-news-img-container{
+        grid-row: 2;
+    }
+    .blogs-news-info-container{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .blogs-posts-container .post-container{
+        max-width: 45%;
+    }
+    /* Perfil */
+    .projects-main-container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+    }
+    .profile-main-container .profile-container{
+        display: block;
+    }
+}
+@media (max-width:750px) {
+    /* Blogs */
+    .blogs-posts-container .post-container{
+        max-width: 95%;
+    }
+    /* Perfil */
+    .projects-main-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -13,7 +13,7 @@ const App = () => { // creamos el element
       <main>
         <Yo/>
         <Projects/>
-        <Contact/>
+        {/* <Contact/> */}
         <Footer/>
       </main>
 

@@ -75,3 +75,69 @@ nav .profile-link-left a, .profile-link-right a{
     color: rgb(255, 255, 255);
     border-bottom: 1px solid rgb(255, 255, 255);
 }
+
+@media (max-width:900px) {
+    /* Perfil */
+    .projects-main-container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+    }
+    .profile-main-container .profile-container{
+        display: block;
+    }
+}
+@media (max-width:750px) {
+    /* Perfil */
+    .projects-main-container {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:425px) {
+    header .header-icon-container{
+        height: 50px;
+        display: grid;
+        background-color: rgb(0 51 76);
+        position: fixed;
+    }
+    header .header-icon-container .icons{
+        margin: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-around;
+        /* justify-self: end; */
+        /* margin-right: 50px; */
+    }
+    nav {
+        width: auto;
+        display: flex;
+        /* grid-template-columns: 1fr 1fr; */
+        height: 90px;
+        background-color: rgb(39, 39, 39);
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-around;
+        padding-top: 50px;
+    }
+    nav .profile-link-left {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 10px;
+        gap: 80px;
+    }
+    nav .profile-link-right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+    .profile-main-name {
+        text-align: center;
+        padding: 20px;
+    }
+}
