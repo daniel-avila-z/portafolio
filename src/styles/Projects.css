@@ -21,7 +21,7 @@ a{
 
 .profile-main-projects h3{
     margin-top: 0px;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0 0 0);
     padding-bottom: 35px;
     text-align: center;
     display: flex;
@@ -30,7 +30,10 @@ a{
     align-items: center;
     flex-wrap: wrap;
     gap: 0px;
-    background: linear-gradient(0deg, rgb(0 187 255) 0%, rgb(185 221 255) 100%);
+    background: linear-gradient(0deg, rgb(39 39 39) 0%, rgb(39 39 39) 100%);
+    color: #ffffff;
+    font-size: 2rem;
+    padding-top: 2px;
 }
 .profile-main-projects .grid-container div h3 span .profile-main-gif {
     width: 90px;

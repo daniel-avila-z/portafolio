@@ -12,7 +12,7 @@ const Yo = () => {
             <div className="profile-main-foto-container">
                 <img src={fotoPerfil} alt="" />
             </div>
-            <div>
+            <div className="profile-main-text">
                 <h2>Me desempeño en</h2>
                 <p>.sxs</p>
             </div>
