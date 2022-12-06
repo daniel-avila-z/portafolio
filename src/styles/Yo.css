@@ -113,7 +113,7 @@ a{
     }
     .profile-main-container {
         display: grid;
-        padding: 70px 40px;
+        padding: 10px 10px;
         background: linear-gradient(0deg, rgb(0 51 76) 0%, rgb(0 51 76) 100%);
         margin-bottom: 0px;
         justify-items: center;

@@ -103,10 +103,9 @@ nav .profile-link-left a, .profile-link-right a{
         grid-template-rows: 1fr 1fr;
     }
 }
-@media (max-width:425px) {
+@media (max-width:428px) {
     header .header-icon-container{
         height: 50px;
-        display: grid;
         background-color: rgb(0 51 76);
         position: fixed;
     }
@@ -114,7 +113,6 @@ nav .profile-link-left a, .profile-link-right a{
         margin: 0;
         width: 100%;
         height: auto;
-        display: flex;
         justify-items: center;
         align-items: center;
         justify-content: space-around;
@@ -122,24 +120,24 @@ nav .profile-link-left a, .profile-link-right a{
         /* margin-right: 50px; */
     }
     nav {
+        padding-top: 0;
         width: auto;
         display: flex;
-        /* grid-template-columns: 1fr 1fr; */
-        height: 90px;
         background-color: rgb(39, 39, 39);
+        justify-content: space-around;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        align-content: space-around;
-        padding-top: 50px;
+    }
+    nav .profile-link-left a, .profile-link-right a {
+        color: rgb(255, 255, 255);
+        font-size: 0.9rem;
+        border-bottom: 1px solid rgb(255, 255, 255);
     }
     nav .profile-link-left {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         margin-left: 10px;
-        gap: 80px;
+        gap: 20px;
     }
     nav .profile-link-right {
         display: flex;
