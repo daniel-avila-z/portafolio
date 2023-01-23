@@ -1,0 +1,25 @@
+import React from "react";
+import '../styles/Certificados.css'
+// import fotoPerfil from '../assets/img/perfil.jpg'
+import fotoPerfil from '../assets/img/foto1.jpg'
+
+const Ce = () => {
+    return(
+<>  <div className="profile-main-name">
+        <h1>¡Hola!, soy <span className="profile-name">DANIEL AVILA</span></h1>
+    </div>
+    <section className="profile-main-container">
+        <div className="grid-container  profile-container">
+            <div className="profile-main-foto-container">
+                <img src={fotoPerfil} alt="" />
+            </div>
+            <div className="profile-main-text">
+                <h2>Me desempeño en</h2>
+                <p>.sxs</p>
+            </div>
+        </div>
+    </section></>
+    )
+}
+
+export default Yo
