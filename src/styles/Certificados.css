@@ -23,7 +23,7 @@ a{
     margin-bottom: 1%;
     margin-top: 0px;
     border-bottom: 1px solid rgb(0 0 0);
-    padding-bottom: 35px;
+
     text-align: center;
     display: flex;
     flex-direction: column-reverse;
@@ -34,7 +34,7 @@ a{
     background: linear-gradient(0deg, rgb(39 39 39) 0%, rgb(39 39 39) 100%);
     color: #ffffff;
     font-size: 2rem;
-    padding-top: 2px;
+    padding: 10px 0px 10px 0px;
 }
 .profile-main-certificados .grid-container div h3 span .profile-main-gif {
     width: 90px;
@@ -61,6 +61,16 @@ a{
     /* height: 306px; */
     object-fit: cover;
     border-radius: 30px;
+}
+
+.certificados-container-link{
+    text-align: center;
+    background: yellowgreen;
+}
+
+.certificados-link {
+    font-size: 21px;
+    text-decoration: underline;
 }
 
 @media (max-width:900px) {

@@ -27,33 +27,36 @@ const Certificados = () => {
         <div className="grid-container">
             <div>
                 {/* Cambiar el gif */}
-                <h3>Certificados<span><img  className="profile-main-gif" src={gifDeveloper} alt=""/></span></h3>
+                <h3>Certificados</h3>
             </div>
             <div className="certificados-main-container">
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
-                        <img className='' src={asincrojs} alt="asincronismo js" />
+                        <img className='' src={practicojs} alt="asincronismo js" />
                     </div>
                 </article>
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
-                        <img className='' src={basicjs} alt="basico js" />
+                        <img className='' src={reactmanejoproestado} alt="basico js" />
                     </div>
                 </article>
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
-                        <img className='' src={closuresscopejs} alt="closures & scope js" />
+                        <img className='' src={reactpatronrendercompo} alt="closures & scope js" />
                     </div>
                 </article>
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
-                        <img className='' src={closuresscopejs} alt="closures & scope js" />
+                        <img className='' src={reactpractico} alt="closures & scope js" />
                     </div>
                 </article>
+            </div>
+            <div className='certificados-container-link'>
+                <a className='certificados-link' href='https://platzi.com/p/daniel.avila/' target='_blank' alt='Platzi'>Ver todos mis certificados</a>
             </div>
         </div>
     </section>

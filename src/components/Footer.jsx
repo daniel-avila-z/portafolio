@@ -4,7 +4,7 @@ import '../styles/Footer.css'
 const Footer =()=> {
 return (
     <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Hecho con 🧡 por Daniel</p>
     </footer>
     )
 }
