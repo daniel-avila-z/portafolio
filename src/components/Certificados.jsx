@@ -27,36 +27,42 @@ const Certificados = () => {
         <div className="grid-container">
             <div>
                 {/* Cambiar el gif */}
-                <h3>Certificados</h3>
+                <h3>🎓Certificados📜</h3>
             </div>
             <div className="certificados-main-container">
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
                         <img className='' src={practicojs} alt="asincronismo js" />
+                        
                     </div>
+                    <p>Curso Práctico de JavaScript</p>
                 </article>
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
                         <img className='' src={reactmanejoproestado} alt="basico js" />
+                        
                     </div>
+                    <p>Curso de React.JS: Manejo Profesional del estado</p>
                 </article>
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
                         <img className='' src={reactpatronrendercompo} alt="closures & scope js" />
                     </div>
+                    <p>Curso de React.JS: Patrones de render y componsición</p>
                 </article>
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
                         <img className='' src={reactpractico} alt="closures & scope js" />
                     </div>
+                    <p>Curso Práctico de React.JS</p>
                 </article>
             </div>
             <div className='certificados-container-link'>
-                <a className='certificados-link' href='https://platzi.com/p/daniel.avila/' target='_blank' alt='Platzi'>Ver todos mis certificados</a>
+                <a className='certificados-link' href='https://platzi.com/p/daniel.avila/' target='_blank' alt='Platzi'>Ver todos mis certificados↗</a>
             </div>
         </div>
     </section>

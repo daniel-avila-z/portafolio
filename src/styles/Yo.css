@@ -34,7 +34,7 @@ a{
     color: rgb(255 255 255);
 }
 .profile-main-container{
-    padding: 70px 40px;
+    padding: 30px 30px;
     background: linear-gradient(0deg, rgb(0 51 76) 0%, rgb(0 51 76) 100%);
     margin-bottom: 0px;
 }
@@ -50,6 +50,13 @@ a{
 }
 .profile-main-text{
     color: rgb(255, 255, 255);
+}
+.resaltado{
+    text-shadow: 2px 1px 0px rgb(3 165 255);
+    color: rgb(255 255 255);
+}
+.yo-h2{
+    font-size: 23px;
 }
 /* .profile-main-projects{
     padding: 0 50px 40px;

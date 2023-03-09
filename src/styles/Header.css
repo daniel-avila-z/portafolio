@@ -13,6 +13,18 @@ body{
     max-width: 1280px;
     margin: auto;
 } */
+.comentario-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.comentario{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(0 0 0 / 43%);
+    place-self: center;
+}
 a{
     text-decoration: none;
     display: inline;

@@ -55,13 +55,16 @@ const Header = () => {
           </div>
         </section>
         <nav>
-          <section className="profile-link-left">
+          {/* <section className="profile-link-left">
             <a href="perfil.html">Ultimo Post</a>
             <a href="blogs.html">Blog</a>
-          </section>
-          <section className="profile-link-right">
+          </section> */}
+          <div className='comentario-container'>
+            <h2 className='comentario'>//Zona en construción 👨‍💻</h2>
+          </div>
+          {/* <section className="profile-link-right">
             <a href="perfil.html">Más sobre mí</a>
-          </section>
+          </section> */}
         </nav>
       </header>
     );
