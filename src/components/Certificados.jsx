@@ -1,24 +1,26 @@
 import React from 'react'
 import '../styles/Certificados.css'
-import gifDeveloper from '../assets/gifs/developer.webp'
-import asincrojs  from '../assets/certificados/asincronismojs.png'
-import  basicjs  from '../assets/certificados/basicojs.png'
-import  closuresscopejs  from '../assets/certificados/closuresscopejs.png'
-import  ecmahistojs  from '../assets/certificados/ecmahistojs.png'
-import  frontenddev  from '../assets/certificados/frontenddev.png'
-import  gestinpm  from '../assets/certificados/gestinpm.png'
-import  htmlycss  from '../assets/certificados/htmlycss.png'
-import  introreact  from '../assets/certificados/introreact.png'
-import  manipulaciondom  from '../assets/certificados/manipulaciondom.png'
-import  maquetacss  from '../assets/certificados/maquetacss.png'
+// import gifDeveloper from '../assets/gifs/developer.webp'
+// import asincrojs  from '@certificados/asincronismojs.png'
+// import  basicjs  from '@certificados/basicojs.png'
+// import  closuresscopejs  from '@certificados/closuresscopejs.png'
+// import  ecmahistojs  from '@certificados/ecmahistojs.png'
+// import  frontenddev  from '@certificados/frontenddev.png'
+// import  gestinpm  from '@certificados/gestinpm.png'
+// import  htmlycss  from '@certificados/htmlycss.png'
+// import  introreact  from '@certificados/introreact.png'
+// import  manipulaciondom  from '@certificados/manipulaciondom.png'
+// import  maquetacss  from '@certificados/maquetacss.png'
+// import  webpack  from '@certificados/webpack.png'
+// import cssLetra from '@icons/css-svg-letra.svg'
 import  practicojs  from '../assets/certificados/practicojs.png'
 import  reactmanejoproestado  from '../assets/certificados/reactmanejoproestado.png'
 import  reactpatronrendercompo  from '../assets/certificados/reactpatrorendercompo.png'
 import  reactpractico  from '../assets/certificados/reactpractico.png'
-import  webpack  from '../assets/certificados/webpack.png'
-
-import cssLetra from '../assets/icons/css-svg-letra.svg'
-
+import PracticoJs from '../assets/certificados/PracticoJS'
+import ManejoState from '../assets/certificados/ManejoState'
+import PatronesReact from '../assets/certificados/PatronesReact'
+import ReactPractico from '../assets/certificados/ReactPractico'
 
 const Certificados = () => {
     return (
@@ -33,7 +35,7 @@ const Certificados = () => {
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
-                        <img className='' src={practicojs} alt="asincronismo js" />
+                        <img className=''src={`data:image/png;base64,${PracticoJs}`} alt="asincronismo js" />
                         
                     </div>
                     <p>Curso Práctico de JavaScript</p>
@@ -41,7 +43,7 @@ const Certificados = () => {
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
-                        <img className='' src={reactmanejoproestado} alt="basico js" />
+                        <img className='' src={`data:image/png;base64,${ManejoState}`} alt="basico js" />
                         
                     </div>
                     <p>Curso de React.JS: Manejo Profesional del estado</p>
@@ -49,14 +51,14 @@ const Certificados = () => {
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
-                        <img className='' src={reactpatronrendercompo} alt="closures & scope js" />
+                        <img className='' src={`data:image/png;base64,${PatronesReact}`} alt="closures & scope js" />
                     </div>
                     <p>Curso de React.JS: Patrones de render y componsición</p>
                 </article>
                 <article className="certificados-container">
                     {/* <!-- TODO:agregar una imagen --> */}
                     <div className='certificado-foto'>
-                        <img className='' src={reactpractico} alt="closures & scope js" />
+                        <img className='' src={`data:image/png;base64,${ReactPractico}`} alt="closures & scope js" />
                     </div>
                     <p>Curso Práctico de React.JS</p>
                 </article>

@@ -9,6 +9,21 @@ module.exports = {
     filename: "bundle.js",
     publicPath: '/',
     clean: true
+  },  resolve: {
+    extensions: ['.js', '.jsx'],
+    alias: {
+      '@certificados': path.resolve(__dirname, 'src/assets/certificados/'),
+      '@gifs': path.resolve(__dirname, 'src/assets/gifs/'),
+      '@icons': path.resolve(__dirname, 'src/assets/icons/'),
+      '@img': path.resolve(__dirname, 'src/assets/img/'),
+      '@proyectos': path.resolve(__dirname, 'src/assets/proyectos/'),
+      '@components': path.resolve(__dirname, 'src/components/'),
+      '@containers': path.resolve(__dirname, 'src/containers/'),
+      '@pages': path.resolve(__dirname, 'src/pages/'),
+      '@styles': path.resolve(__dirname, 'src/styles/'),
+      '@logos': path.resolve(__dirname, 'src/assets/logos/'),
+      '@images': path.resolve(__dirname, 'src/assets/images/'),
+    }
   },
   devtool: 'source-map', // para que no salga una advertencia en la consola de google
   mode: 'development',
