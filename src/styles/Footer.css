@@ -19,15 +19,22 @@ a{
     color: rgb(0, 0, 0);
 }
 footer{
+    
+    display: flex;
     width: 100%;
     height: 80px;
     background-color: rgb(39, 39, 39);
-    border-top: 35px solid rgb(0 51 76);
+    /* border-top: 1px solid rgb(0 51 76); */
     text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
 footer p{
     color: white;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 @media (max-width:900px) {

@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/Yo.css'
 // import fotoPerfil from '../assets/img/perfil.jpg'
 // import fotoPerfil from '../assets/img/foto1.jpg'
-import fotoYo from "../assets/img/FotoYo.jsx";
+import FotoYo from "../assets/img/FotoYo.jsx";
 // Optimizar las imagenes
 const Yo = () => {
     return(
@@ -12,7 +12,7 @@ const Yo = () => {
     <section className="profile-main-container">
         <div className="grid-container  profile-container">
             <div className="profile-main-foto-container">
-                <img src={`data:image/jpeg;base64,${fotoYo}`} alt="mi-foto" />
+                <img src={`data:image/jpeg;base64,${FotoYo}`} alt="mi-foto" />
             </div>
             <div className="profile-main-text">
                 <h2 className='yo-h2'>Tengo conocimientos en el lado del frontend con tecnologías como <span className='resaltado'>React</span>, <span className='resaltado'>NextJS</span>  y <span className='resaltado'>Tailwind</span>, completando cursos y tutoriales, ambos con prácticas que me animan a seguir desarrollando.</h2>
