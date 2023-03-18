@@ -13,6 +13,7 @@ module.exports = {
     extensions: ['.js', '.jsx'],
     alias: {
       '@certificados': path.resolve(__dirname, 'src/assets/certificados/'),
+      '@certifiOp': path.resolve(__dirname, 'src/assets/certifiOptimizados/'),
       '@gifs': path.resolve(__dirname, 'src/assets/gifs/'),
       '@icons': path.resolve(__dirname, 'src/assets/icons/'),
       '@img': path.resolve(__dirname, 'src/assets/img/'),
@@ -22,7 +23,6 @@ module.exports = {
       '@pages': path.resolve(__dirname, 'src/pages/'),
       '@styles': path.resolve(__dirname, 'src/styles/'),
       '@logos': path.resolve(__dirname, 'src/assets/logos/'),
-      '@images': path.resolve(__dirname, 'src/assets/images/'),
     }
   },
   devtool: 'source-map', // para que no salga una advertencia en la consola de google
