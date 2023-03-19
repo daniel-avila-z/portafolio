@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/Yo.css'
 // import fotoPerfil from '../assets/img/perfil.jpg'
 // import fotoPerfil from '../assets/img/foto1.jpg'
-import FotoYo from "../assets/img/foto1.jpg";
+import FotoYo from '@img/foto1OP.jpg';
 // Optimizar las imagenes
 const Yo = () => {
     return(

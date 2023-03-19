@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: "./",
+    publicPath: "/",
     clean: true
   }, 
   resolve: {
@@ -55,7 +55,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jp(e*)g|svg|gif|webp)$/,
+        test: /\.(png|jp(e*)g|svg|gif|webp|ico)$/,
         use: [
           {
             loader: 'file-loader',
@@ -76,5 +76,10 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css'
     })
-  ]
+  ],
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000,
+  },
 }  

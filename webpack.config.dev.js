@@ -9,14 +9,15 @@ module.exports = {
     filename: "bundle.js",
     publicPath: '/',
     clean: true
-  },  resolve: {
+  },  
+  resolve: {
     extensions: ['.js', '.jsx'],
     alias: {
       '@certificados': path.resolve(__dirname, 'src/assets/certificados/'),
       '@certifiOp': path.resolve(__dirname, 'src/assets/certifiOptimizados/'),
       '@gifs': path.resolve(__dirname, 'src/assets/gifs/'),
       '@icons': path.resolve(__dirname, 'src/assets/icons/'),
-      '@img': path.resolve(__dirname, 'src/assets/img/'),
+      '@img': path.resolve(__dirname, 'src/assets/img'),
       '@proyectos': path.resolve(__dirname, 'src/assets/proyectos/'),
       '@components': path.resolve(__dirname, 'src/components/'),
       '@containers': path.resolve(__dirname, 'src/containers/'),
@@ -27,9 +28,6 @@ module.exports = {
   },
   devtool: 'source-map', // para que no salga una advertencia en la consola de google
   mode: 'development',
-  resolve: {
-    extensions: [".js", ".jsx"],
-  },
   module: {
     rules: [
       {
@@ -79,5 +77,10 @@ module.exports = {
     port: 8080,
     open: true,
     hot: true
+  },
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000,
   },
 };
