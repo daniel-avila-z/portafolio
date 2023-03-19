@@ -69,48 +69,4 @@ nav .profile-link a{
     color: rgb(0, 0, 0);
     border-bottom: 1px solid rgb(0, 0, 0);
 }
-/* Main */
-.home-main{
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    height: 100%;  
-    background-image: url('../assets/img/wallpaper-astronaut.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-    height: calc(100vh - 140px) 
-}
-.home-main section{
-    display: grid;
-    grid-column: 2;
-    justify-items: center;
-    height: 350px;
-    margin-top: 156px;
-    align-items: center;
-}
-.home-main-text{
-    font-family: 'Roboto mono', monospace;
-    font-size: 30px;
-    font-weight: 700px;
-    letter-spacing: 10px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 43%, rgba(156,0,144,1) 100%);
-}
-.mundo-tech{
-    color: rgb(0, 255, 191);
-}
 
-.home-main-button {
-    width: 100px;
-    height: 50px;
-    background: rgb(71, 207, 172);
-    display: grid;
-    align-items: center;
-    border: 1px solid rgb(0, 0, 0);
-}
-.home-main-button a{
-    font-weight: 700;
-    font-size: 18px;
-}

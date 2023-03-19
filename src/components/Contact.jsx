@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Contact.css'
-import newsletter from '../assets/icons/newsletter.png';
-import textMe from '../assets/icons/like.png'
+import '@styles/Contact.css'
+import newsletter from '@icons/newsletter.png';
+import textMe from '@icons/like.png'
 
 const Contact = () => {
     return(

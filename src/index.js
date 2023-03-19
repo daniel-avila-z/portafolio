@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom/client'
 //   BrowserRouter,
 //   HashRouter
 // } from 'react-router-dom'
-import App from './routes/App'
+import App from './App'
 
 ReactDOM.createRoot(document.getElementById('app')).render(
   < App />

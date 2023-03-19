@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/Header.css';
-import gmail from '../assets/icons/gmail-logo.png';
-import linkedin from '../assets/icons/linkedin-logo.png';
-import telegram from '../assets/icons/telegram-logo.png';
-import whatsapp from '../assets/icons/whatsapp-logo.png';
-import github from '../assets/icons/github.png';
+import '@styles/Header.css';
+import gmail from '@icons/gmail-logo.png';
+import linkedin from '@icons/linkedin-logo.png';
+import telegram from '@icons/telegram-logo.png';
+import whatsapp from '@icons/whatsapp-logo.png';
+import github from '@icons/github.png';
 
 const Header = () => {
     return (

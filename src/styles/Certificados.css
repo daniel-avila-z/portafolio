@@ -1,24 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
-
-body{
-    font-family: 'Roboto Mono', monospace;
-    margin: 0;
-    padding: 0;
-    /* background-image: url('../assets/img/wallpaper-astronaut.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    height: calc(100vh - 140px) */
-}
-/* .grid-container{
-    max-width: 1280px;
-    margin: auto;
-} */
-a{
-    text-decoration: none;
-    display: inline;
-    color: rgb(0, 0, 0);
-}
-
 .profile-main-certificados h3{
     margin-bottom: 1%;
     margin-top: 0px;
@@ -87,44 +66,6 @@ a{
 }
 
 @media (max-width:900px) {
-    /* Blogs */
-    .blogs-main-new{
-        grid-template-columns: 1fr;
-        grid-template-rows: 3fr;
-    }
-    .blogs-news-img-container{
-        grid-row: 2;
-    }
-    .blogs-news-info-container{
-        grid-column: 1;
-        grid-row: 3;
-    }
-    .blogs-posts-container .post-container{
-        max-width: 45%;
-    }
-    /* Perfil */
-    .projects-main-container{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr;
-    }
-    .profile-main-container .profile-container{
-        display: block;
-    }
 }
 @media (max-width:750px) {
-    /* Blogs */
-    .blogs-posts-container .post-container{
-        max-width: 95%;
-    }
-    /* Perfil */
-    .projects-main-container {
-        grid-template-columns: 1fr;
-    }
-    .certificados-container{
-        width: 95%;
-
-    }
-    .certificado-foto {
-        width: 100%;
-    }
 }

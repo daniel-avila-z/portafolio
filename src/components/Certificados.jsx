@@ -1,10 +1,10 @@
 import React from 'react'
-import '../styles/Certificados.css'
+import '@styles/Certificados.css'
 // import gifDeveloper from '../assets/gifs/developer.webp'
-import  frontenddev  from '../assets/certifiOptimizados/frontenddev.png'
-import ManejoState from '../assets/certifiOptimizados/reactmanejoproestado.png'
-import PatronesReact from '../assets/certifiOptimizados/reactpatrorendercompo.png'
-import ReactPractico from '../assets/certifiOptimizados/reactpractico.png'
+import  frontenddev  from '@certifiOp/frontenddev.png'
+import ManejoState from '@certifiOp/reactmanejoproestado.png'
+import PatronesReact from '@certifiOp/reactpatrorendercompo.png'
+import ReactPractico from '@certifiOp/reactpractico.png'
 
 const Certificados = () => {
     return (

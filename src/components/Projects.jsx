@@ -1,15 +1,10 @@
 import React from 'react'
-import '../styles/Projects.css'
-// import gifDeveloper from '../assets/gifs/developer.webp'
-//import fakeStore from '../assets/proyectos/fakestore-apiPlatzi.png'
-// import nextJSPract from '../assets/proyectos/nextjs-practica.png'
-// import rickMorty from '../assets/proyectos/rick&morty-api.png'
-// import todoApp from '../assets/proyectos/todo-app-react00.png'
-import DevGif from '../assets/gifs/developer.webp'
-import FakestoreApi from '../assets/proyectosOp/fakestore-apiPlatzi.png'
-import NextjsPractice from '../assets/proyectosOp/nextjs-practica.png'
-import RickMorty from '../assets/proyectosOp/rick&morty-api.png'
-import TodoApp from '../assets/proyectosOp/todo-app-react00.png'
+import '@styles/Projects.css'
+import DevGif from '@gifs/developer.webp'
+import FakestoreApi from '@proyectosOp/fakestore-apiPlatzi.png'
+import NextjsPractice from '@proyectosOp/nextjs-practica.png'
+import RickMorty from '@proyectosOp/rick&morty-api.png'
+import TodoApp from '@proyectosOp/todo-app-react00.png'
 
 const Projects =()=> {
     return (<>

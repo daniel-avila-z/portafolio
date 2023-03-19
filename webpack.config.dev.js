@@ -18,7 +18,7 @@ module.exports = {
       '@gifs': path.resolve(__dirname, 'src/assets/gifs/'),
       '@icons': path.resolve(__dirname, 'src/assets/icons/'),
       '@img': path.resolve(__dirname, 'src/assets/img'),
-      '@proyectos': path.resolve(__dirname, 'src/assets/proyectos/'),
+      '@proyectosOp': path.resolve(__dirname, 'src/assets/proyectosOp/'),
       '@components': path.resolve(__dirname, 'src/components/'),
       '@containers': path.resolve(__dirname, 'src/containers/'),
       '@pages': path.resolve(__dirname, 'src/pages/'),
