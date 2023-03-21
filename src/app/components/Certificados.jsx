@@ -1,0 +1,58 @@
+import React from 'react'
+import '../styles/Certificados.css'
+// import gifDeveloper from '../assets/gifs/developer.webp'
+import frontenddev from '../../../public/assets/certifiOp/frontenddev.png'
+import ManejoState from '../../../public/assets/certifiOp/reactmanejoproestado.png'
+import PatronesReact from '../../../public/assets/certifiOp/reactpatrorendercompo.png'
+import ReactPractico from '../../../public/assets/certifiOp/reactpractico.png'
+import Image from 'next/image'
+export function Certificados  () {
+  return (
+    <>
+      <section className='profile-main-certificados'>
+        <div className='grid-container'>
+          <div>
+            {/* Cambiar el gif */}
+            <h3>🎓Certificados📜</h3>
+          </div>
+          <div className='certificados-main-container'>
+            <article className='certificados-container'>
+              {/* <!-- TODO:agregar una imagen --> */}
+              <div className='certificado-foto'>
+                <Image className='' src={frontenddev} alt='asincronismo js' />
+
+              </div>
+              <p>Curso de Fronted Developer</p>
+            </article>
+            <article className='certificados-container'>
+              {/* <!-- TODO:agregar una imagen --> */}
+              <div className='certificado-foto'>
+                <Image className='' src={ManejoState} alt='Manejo Profesional del estado' />
+
+              </div>
+              <p>Curso de React.JS: Manejo Profesional del estado</p>
+            </article>
+            <article className='certificados-container'>
+              {/* <!-- TODO:agregar una imagen --> */}
+              <div className='certificado-foto'>
+                <Image className='' src={PatronesReact} alt='Patrones React' />
+              </div>
+              <p>Curso de React.JS: Patrones de render y componsición</p>
+            </article>
+            <article className='certificados-container'>
+              {/* <!-- TODO:agregar una imagen --> */}
+              <div className='certificado-foto'>
+                <Image className='' src={ReactPractico} alt='React Practico' />
+              </div>
+              <p>Curso Práctico de React.JS</p>
+            </article>
+          </div>
+          <div className='certificados-container-link'>
+            <a className='certificados-link' href='https://platzi.com/p/daniel.avila/' target='_blank' alt='Platzi' rel='noreferrer'>Ver todos mis certificados↗</a>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
+
