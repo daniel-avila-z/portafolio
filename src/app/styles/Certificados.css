@@ -38,7 +38,7 @@
     color: white;
     border-radius: 15px;
     justify-content: space-evenly;
-    width: 25%;
+    width: 45%;
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
@@ -68,4 +68,34 @@
 @media (max-width:900px) {
 }
 @media (max-width:750px) {
+    .certificados-container {
+        background-color: rgb(0 51 76);
+        display: flex;
+        padding: 0.5% 0.5%;
+        margin: 1% 1%;
+        text-align: center;
+        color: white;
+        border-radius: 15px;
+        justify-content: space-evenly;
+        width: 47%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:431px) {
+    .certificados-container {
+        background-color: rgb(0 51 76);
+        display: flex;
+        padding: 0.5% 0.5%;
+        margin: 1% 1%;
+        text-align: center;
+        color: white;
+        border-radius: 15px;
+        justify-content: space-evenly;
+        width: 47%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
 }

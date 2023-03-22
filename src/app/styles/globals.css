@@ -18,3 +18,8 @@ a{
     display: inline;
     color: rgb(0, 0, 0);
 }
+@media (max-width:431px) {
+    /* main{
+        margin-top: 35px;
+    } */
+}

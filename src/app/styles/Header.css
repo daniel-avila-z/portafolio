@@ -80,7 +80,7 @@ nav .profile-link-left a, .profile-link-right a{
 @media (max-width:617px) {
     header {
         width: 100%;
-        height: 140px;
+        height: 84px;
         display: grid;
         grid-template-rows: 1fr 1fr;
     }
@@ -108,6 +108,7 @@ nav .profile-link-left a, .profile-link-right a{
         background-color: rgb(39, 39, 39);
         justify-content: space-around;
         flex-direction: row;
+        height: 38px;
     }
     nav .profile-link-left a, .profile-link-right a {
         color: rgb(255, 255, 255);
