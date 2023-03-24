@@ -1,8 +1,12 @@
+
 import '../styles/Yo.css'
 // import fotoPerfil from '../assets/img/perfil.jpg'
 // import fotoPerfil from '../assets/img/foto1.jpg'
 import FotoYo from '../../../public/assets/img/yo2.jpg'
 import Image from 'next/image'
+import { Suspense } from 'react'
+import Loading from './LoadingTemplate.jsx'
+
 export function Yo () {
   return (
     <>
@@ -11,9 +15,10 @@ export function Yo () {
       </div>
       <section className='profile-main-container'>
         <div className='grid-container  profile-container'>
-
-          <Image priority src={FotoYo} alt='mi-foto' />
-
+          <Suspense fallback={<Loading />}>
+            <Image src={FotoYo} alt='mi-foto' />
+          </Suspense>
+          {/* <Loading /> */}
           <div className='profile-main-text'>
             <h2 className='yo-h2'>Tengo conocimientos en el lado del frontend con tecnologías como <span className='resaltado'>React</span>, <span className='resaltado'>NextJS</span>  y <span className='resaltado'>Tailwind</span>, completando cursos y tutoriales, ambos con prácticas que me animan a seguir desarrollando.</h2>
             <h3 className='yo-h3'>Continuamente estoy aprendiendo tecnologías para crear productos que me gusten y en un futuro ayuden a personas.<br />
