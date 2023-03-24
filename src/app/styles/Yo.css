@@ -6,6 +6,7 @@
 .profile-main-name h1{
     color: rgb(255 255 255);
     margin: 0;
+    font-size: 45px;
 }
 .profile-main-name span{
     text-shadow: 3px 1px 0px rgb(3 165 255);
