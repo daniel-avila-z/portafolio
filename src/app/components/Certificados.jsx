@@ -6,7 +6,7 @@ import ManejoState from '../../../public/assets/certifiOp/reactmanejoproestado.p
 import PatronesReact from '../../../public/assets/certifiOp/reactpatrorendercompo.png'
 import ReactPractico from '../../../public/assets/certifiOp/reactpractico.png'
 import Image from 'next/image'
-export function Certificados  () {
+export function Certificados () {
   return (
     <>
       <section className='profile-main-certificados'>
@@ -19,40 +19,39 @@ export function Certificados  () {
             <article className='certificados-container'>
               {/* <!-- TODO:agregar una imagen --> */}
               <div className='certificado-foto'>
-                <Image className='' src={frontenddev} alt='asincronismo js' />
+                <Image priority className='' src={frontenddev} alt='asincronismo js' />
 
               </div>
-              <p>Curso de Fronted Developer</p>
+              <p className='certificados-titulo'>Curso de Fronted Developer</p>
             </article>
             <article className='certificados-container'>
               {/* <!-- TODO:agregar una imagen --> */}
               <div className='certificado-foto'>
-                <Image className='' src={ManejoState} alt='Manejo Profesional del estado' />
+                <Image priority className='' src={ManejoState} alt='Manejo Profesional del estado' />
 
               </div>
-              <p>Curso de React.JS: Manejo Profesional del estado</p>
+              <p className='certificados-titulo'>Curso de React.JS: Manejo Profesional del estado</p>
             </article>
             <article className='certificados-container'>
               {/* <!-- TODO:agregar una imagen --> */}
               <div className='certificado-foto'>
-                <Image className='' src={PatronesReact} alt='Patrones React' />
+                <Image priority className='' src={PatronesReact} alt='Patrones React' />
               </div>
-              <p>Curso de React.JS: Patrones de render y componsición</p>
+              <p className='certificados-titulo'>Curso de React.JS: Patrones de render y componsición</p>
             </article>
             <article className='certificados-container'>
               {/* <!-- TODO:agregar una imagen --> */}
               <div className='certificado-foto'>
-                <Image className='' src={ReactPractico} alt='React Practico' />
+                <Image priority className='' src={ReactPractico} alt='React Practico' />
               </div>
-              <p>Curso Práctico de React.JS</p>
+              <p className='certificados-titulo'>Curso Práctico de React.JS</p>
             </article>
           </div>
           <div className='certificados-container-link'>
-            <a className='certificados-link' href='https://platzi.com/p/daniel.avila/' target='_blank' alt='Platzi' rel='noreferrer'>Ver todos mis certificados↗</a>
+            <a className='certificados-link' href='https://platzi.com/p/daniel.avila/' target='_blank' alt='Mis certificados en Platzi' rel='noreferrer'>Ver todos mis certificados↗</a>
           </div>
         </div>
       </section>
     </>
   )
 }
-

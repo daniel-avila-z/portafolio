@@ -12,7 +12,7 @@ export function Header () {
     <header>
       <section className='header-icon-container'>
         <div className='icons'>
-          <a href=''>
+          <a href='https://mail.google.com/mail/u/0/#inbox?compose=XBcJkvdsgxKZrnPCgLRpWjjpdRhkpMcbwpKlqmXMzxpWXtMpCPKZrjBCWFlgrnlwxLVtJZMrpRgRSGHb' target='_blank' alt='' rel='noreferrer'>
             <span>
               <Image
                 className='icon'
@@ -21,7 +21,7 @@ export function Header () {
               />
             </span>
           </a>
-          <a href=''>
+          <a href='https://www.linkedin.com/in/daniel-avila-z/' target='_blank' alt='Mis certificados en Platzi' rel='noreferrer'>
             <span>
               <Image
                 className='icon'
@@ -30,7 +30,7 @@ export function Header () {
               />
             </span>
           </a>
-          <a href=''>
+          <a href='https://t.me/Daniel_Aaz' target='_blank' alt='Mis certificados en Platzi' rel='noreferrer'>
             <span>
               <Image
                 className='icon'
@@ -39,7 +39,7 @@ export function Header () {
               />
             </span>
           </a>
-          <a href=''>
+          <a href='https://wa.me/qr/XOCXSFFY33PZL1' target='_blank' alt='Mis certificados en Platzi' rel='noreferrer'>
             <span>
               <Image
                 className='icon'
@@ -48,7 +48,7 @@ export function Header () {
               />
             </span>
           </a>
-          <a href=''>
+          <a href='' target='_blank' alt='Mis certificados en Platzi' rel='noreferrer'>
             <span>
               <Image className='icon' src={github} alt='github' />
             </span>
