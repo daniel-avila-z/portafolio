@@ -1,5 +1,7 @@
+'use client'
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React from 'react'
+import React, { useState } from 'react'
+// import React from 'react'
 import '../styles/Header.css'
 import gmail from '../../../public/assets/icons/gmail-logo.png'
 import linkedin from '../../../public/assets/icons/linkedin-logo.png'
@@ -7,12 +9,31 @@ import telegram from '../../../public/assets/icons/telegram-logo.png'
 import whatsapp from '../../../public/assets/icons/whatsapp-logo.png'
 import github from '../../../public/assets/icons/github.png'
 import Image from 'next/image'
+
+function Modal ({ setOpen }) {
+  return (
+    <div className='modal'>
+      <div className='modalContent'>
+        <h2 className='titulo-correo'>Este es mi correo electronico:</h2>
+        <h3 className='correo'>daniel.avila.dev@gmail.com</h3>
+        <div className='close-container'>
+          <span className='close' onClick={() => setOpen(false)}>
+            Cerrar
+          </span>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 export function Header () {
+  const [open, setOpen] = useState(false)
+
   return (
     <header>
       <section className='header-icon-container'>
         <div className='icons'>
-          <a href='https://mail.google.com/mail/u/0/#inbox?compose=XBcJkvdsgxKZrnPCgLRpWjjpdRhkpMcbwpKlqmXMzxpWXtMpCPKZrjBCWFlgrnlwxLVtJZMrpRgRSGHb' target='_blank' alt='' rel='noreferrer'>
+          <a target='_blank' alt='Gmail' rel='noreferrer' onClick={() => setOpen(true)}>
             <span>
               <Image
                 className='icon'
@@ -20,8 +41,9 @@ export function Header () {
                 alt='gmail'
               />
             </span>
+
           </a>
-          <a href='https://www.linkedin.com/in/daniel-avila-z/' target='_blank' alt='Mis certificados en Platzi' rel='noreferrer'>
+          <a href='https://www.linkedin.com/in/daniel-avila-z/' target='_blank' alt='Linkedin' rel='noreferrer'>
             <span>
               <Image
                 className='icon'
@@ -30,7 +52,7 @@ export function Header () {
               />
             </span>
           </a>
-          <a href='https://t.me/Daniel_Aaz' target='_blank' alt='Mis certificados en Platzi' rel='noreferrer'>
+          <a href='https://t.me/Daniel_Aaz' target='_blank' alt='Telegram' rel='noreferrer'>
             <span>
               <Image
                 className='icon'
@@ -39,7 +61,7 @@ export function Header () {
               />
             </span>
           </a>
-          <a href='https://wa.me/qr/XOCXSFFY33PZL1' target='_blank' alt='Mis certificados en Platzi' rel='noreferrer'>
+          <a href='https://wa.me/qr/XOCXSFFY33PZL1' target='_blank' alt='WhatsApp' rel='noreferrer'>
             <span>
               <Image
                 className='icon'
@@ -48,7 +70,7 @@ export function Header () {
               />
             </span>
           </a>
-          <a href='' target='_blank' alt='Mis certificados en Platzi' rel='noreferrer'>
+          <a href='https://github.com/daniel-avila-z' target='_blank' alt='GitHub' rel='noreferrer'>
             <span>
               <Image className='icon' src={github} alt='github' />
             </span>
@@ -67,6 +89,7 @@ export function Header () {
             <a href="perfil.html">Más sobre mí</a>
           </section> */}
       </nav>
+      {open && <Modal setOpen={setOpen} />}
     </header>
   )
 }
