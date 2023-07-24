@@ -4,6 +4,7 @@ body{
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
+    background-color: rgb(43 86 137);
     /* background-image: url('../assets/img/wallpaper-astronaut.jpg');
     background-size: cover;
     background-repeat:no-repeat;

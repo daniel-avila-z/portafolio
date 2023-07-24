@@ -12,10 +12,8 @@ export function Yo () {
         <div className='grid-container  profile-container'>
           <Image loading='lazy' src={FotoYo} alt='mi-foto' />
           <div className='profile-main-text'>
-            <h2 className='yo-h2'>Tengo conocimientos en el lado del frontend con tecnologías como <span className='resaltado'>React</span>, <span className='resaltado'>NextJS</span>  y <span className='resaltado'>Tailwind</span>, completando cursos y tutoriales, ambos con prácticas que me animan a seguir desarrollando.</h2>
-            <h3 className='yo-h3'>Continuamente estoy aprendiendo tecnologías para crear productos que me gusten y en un futuro ayuden a personas.<br />
-              <br />
-              Actualmente estoy aprendiendo PHP para comenzar mi camino backend🤖.
+            <h2 className='yo-h2'>Tengo conocimientos en el lado del frontend, así como tecnologías como <span className='resaltado'>React</span>, <span className='resaltado'>NextJS</span>  y <span className='resaltado'>Tailwind</span>. He completado cursos y tutoriales, los cuales me animan a seguir desarrollando.</h2>
+            <h3 className='yo-h3'>Continuamente, estoy aprendiendo tecnologías para crear productos que me gustan y que en un futuro ayuden a las personas. Actualmente, estoy aprendiendo PHP para comenzar mi camino backend🤖.
             </h3>
           </div>
         </div>

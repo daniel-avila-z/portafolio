@@ -54,8 +54,8 @@
     align-items: center;
 }
 .project-foto {
-    width: 99%;
-    height: 67%;
+    width: 100%;
+    height: auto;
 }
 .project-foto img{
     /* width: 100%; */
