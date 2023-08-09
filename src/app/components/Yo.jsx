@@ -1,6 +1,6 @@
 
 import '../styles/Yo.css'
-import FotoYo from '../../../public/assets/img/yo2.jpg'
+import FotoYo from '../../../public/assets/img/yo2webp.webp'
 import Image from 'next/image'
 export function Yo () {
   return (

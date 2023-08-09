@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/Certificados.css'
 // import gifDeveloper from '../assets/gifs/developer.webp'
-import frontenddev from '../../../public/assets/certifiOp/frontenddev.png'
-import ManejoState from '../../../public/assets/certifiOp/reactmanejoproestado.png'
-import PatronesReact from '../../../public/assets/certifiOp/reactpatrorendercompo.png'
-import ReactPractico from '../../../public/assets/certifiOp/reactpractico.png'
+import frontenddev from '../../../public/assets/certificados/webp/frontenddev.webp'
+import ManejoState from '../../../public/assets/certificados/webp/reactmanejoproestado.webp'
+import PatronesReact from '../../../public/assets/certificados/webp/reactpatrorendercompo.webp'
+import ReactPractico from '../../../public/assets/certificados/webp/reactpractico.webp'
 import Image from 'next/image'
 export function Certificados () {
   return (
