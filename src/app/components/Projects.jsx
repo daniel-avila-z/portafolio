@@ -29,7 +29,7 @@ export function Projects () {
                 <Image src={FakestoreApi} alt='fakeStore' />
               </picture>
               <div className='text-project-container'>
-                <h4 className='titulo-project'>Fake Store con la API de Platzi</h4>
+                <h4 className='titulo-project'>Fake Store</h4>
                 <div className='text-project'>
                   <span className='hechoCon'> React </span><span className='hechoCon'> NPM </span><span className='hechoCon'> Webpack </span><span className='hechoCon'> JS </span><span className='hechoCon'> HTML </span><span className='hechoCon'> CSS </span>
                 </div>
@@ -44,7 +44,7 @@ export function Projects () {
                 <Image src={NextjsPractice} alt='Practica de NextJS 13 con MiduDev' />
               </div>
               <div className='text-project-container'>
-                <h4 className='titulo-project'>Practica de NextJS 13 con MiduDev</h4>
+                <h4 className='titulo-project'>Practica de NextJS 13</h4>
                 <div className='text-project'>
                   <span className='hechoCon'> NextJS 13 </span><span className='hechoCon'> React </span><span className='hechoCon'> NPM </span><span className='hechoCon'> Webpack </span><span className='hechoCon'> JS </span><span className='hechoCon'> HTML </span><span className='hechoCon'> CSS </span>
                 </div>
@@ -72,7 +72,7 @@ export function Projects () {
                 <Image src={TodoApp} alt='Todo App' />
               </div>
               <div className='text-project-container'>
-                <h4 className='titulo-project'>Todo App del curso de React en Platzi</h4>
+                <h4 className='titulo-project'>Todo App</h4>
                 <div className='text-project'>
                   <span className='hechoCon'> React </span><span className='hechoCon'> NPM </span><span className='hechoCon'> Webpack </span><span className='hechoCon'> JS </span><span className='hechoCon'> HTML </span><span className='hechoCon'> CSS </span>
                 </div>
