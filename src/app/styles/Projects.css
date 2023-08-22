@@ -29,40 +29,45 @@
     margin: 0px;
     color: rgb(0 0 0 / 43%);
 }
-.projects-main-container{
+.projects-main-container {
     padding: 0% 1% 1%;
     display: flex;
     /* grid-template-columns: 1fr 1fr; */
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-
+    flex-direction: column;
 }
-.project-container{
-    background-color: rgb(0 51 76);
-    display: flex;
-    padding: 0.5% 0.5%;
+.project-container {
+    background-color: rgb(2 57 84);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* padding: 0.5% 0.5%; */
     margin: 1% 1%;
     text-align: center;
-
     color: white;
     border-radius: 15px;
-    justify-content: space-evenly;
-    width: 35%;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
+    width: 98%;
+    flex-direction: row;
+    justify-items: stretch;
 }
 .project-foto {
     width: 100%;
     height: auto;
+    padding: 0 0 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
-.project-foto img{
+.project-foto img {
     /* width: 100%; */
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+.text-project-container {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .titulo-project{
     margin: 8px;
@@ -89,6 +94,21 @@
 }
 
 @media (max-width:900px) {
+    .project-foto {
+        width: 100%;
+        height: auto;
+        padding: 0 0 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .project-foto img {
+        /* width: 100%; */
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 0;
+        padding: 0;
+    }
 }
 @media (max-width:750px) {
     .comentario {
@@ -119,5 +139,20 @@
         flex-wrap: nowrap;
         flex-direction: column;
         align-items: center;
+    }
+    .project-foto {
+        width: 100%;
+        height: auto;
+        padding: 0 0 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .project-foto img {
+        /* width: 100%; */
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 0;
+        padding: 0;
     }
 }
