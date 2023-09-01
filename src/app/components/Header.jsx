@@ -14,8 +14,8 @@ function Modal ({ setOpen }) {
   return (
     <div className='modal'>
       <div className='modalContent'>
-        <h2 className='titulo-correo'>Este es mi correo electronico:</h2>
-        <h3 className='correo'>daniel.avila.dev@gmail.com</h3>
+        <h2 className='correo'>daniel.avila.dev@gmail.com</h2>
+
         <div className='close-container'>
           <span className='close' onClick={() => setOpen(false)}>
             Cerrar

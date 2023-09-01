@@ -22,7 +22,7 @@ export function Certificados () {
                 <Image priority className='' src={frontenddev} alt='asincronismo js' />
 
               </div>
-              <h4 className='certificados-titulo'>Curso de Fronted Developer</h4>
+              {/* <h4 className='certificados-titulo'>Curso de Fronted Developer</h4> */}
             </article>
             <article className='certificados-container'>
               {/* <!-- TODO:agregar una imagen --> */}
@@ -30,21 +30,21 @@ export function Certificados () {
                 <Image priority className='' src={ManejoState} alt='Manejo Profesional del estado' />
 
               </div>
-              <h4 className='certificados-titulo'>Curso de React.JS: Manejo Profesional del estado</h4>
+              {/* <h4 className='certificados-titulo'>Curso de React.JS: Manejo Profesional del estado</h4> */}
             </article>
             <article className='certificados-container'>
               {/* <!-- TODO:agregar una imagen --> */}
               <div className='certificado-foto'>
                 <Image priority className='' src={PatronesReact} alt='Patrones React' />
               </div>
-              <h4 className='certificados-titulo'>Curso de React.JS: Patrones de render y componsición</h4>
+              {/* <h4 className='certificados-titulo'>Curso de React.JS: Patrones de render y componsición</h4> */}
             </article>
             <article className='certificados-container'>
               {/* <!-- TODO:agregar una imagen --> */}
               <div className='certificado-foto'>
                 <Image priority className='' src={ReactPractico} alt='React Practico' />
               </div>
-              <h4 className='certificados-titulo'>Curso Práctico de React.JS</h4>
+              {/* <h4 className='certificados-titulo'>Curso Práctico de React.JS</h4> */}
             </article>
           </div>
           <div className='certificados-container-link'>

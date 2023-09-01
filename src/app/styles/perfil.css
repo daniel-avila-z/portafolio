@@ -123,7 +123,7 @@ nav .profile-link-left a, .profile-link-right a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.porject-container{
+.project-container{
     padding: 0 5px;
 }
 
