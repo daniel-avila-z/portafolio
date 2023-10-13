@@ -24,7 +24,6 @@ export function Projects () {
           </div>
           <div className='projects-main-container'>
             <article className='project-container'>
-              {/* <!-- TODO:agregar una imagen --> */}
               <picture className='project-foto'>
                 <Image src={FakestoreApi} alt='fakeStore' />
               </picture>
@@ -33,13 +32,14 @@ export function Projects () {
                 <div className='text-project'>
                   <span className='hechoCon'> React </span><span className='hechoCon'> NPM </span><span className='hechoCon'> Webpack </span><span className='hechoCon'> JS </span><span className='hechoCon'> HTML </span><span className='hechoCon'> CSS </span>
                 </div>
-                <p>
-                  <a target='_blank' className='link-project' href='https://daniel-avila-z.github.io/curso-practico-react02/' rel='noreferrer'>Ver online↗</a>
-                </p>
+                <div className='links-project-container'>
+                  <p><a target='_blank' className='link-project' href='https://daniel-avila-z.github.io/curso-practico-react02/' rel='noreferrer'>Ver online↗</a></p>
+                  <span>|</span>
+                  <p><a target='_blank' className='link-project' href='https://github.com/daniel-avila-z/curso-practico-react02' rel='noreferrer'>Ver código↗</a></p>
+                </div>
               </div>
             </article>
             <article className='project-container'>
-              {/* <!-- TODO:agregar una imagen --> */}
               <div className='project-foto'>
                 <Image src={NextjsPractice} alt='Practica de NextJS 13 con MiduDev' />
               </div>
@@ -48,11 +48,14 @@ export function Projects () {
                 <div className='text-project'>
                   <span className='hechoCon'> NextJS 13 </span><span className='hechoCon'> React </span><span className='hechoCon'> NPM </span><span className='hechoCon'> Webpack </span><span className='hechoCon'> JS </span><span className='hechoCon'> HTML </span><span className='hechoCon'> CSS </span>
                 </div>
-                <p><a target='_blank' className='link-project' href='https://practice-next-app00-pna0b7215-daniel-avila-z.vercel.app/' rel='noreferrer'>Ver online↗</a></p>
+                <div className='links-project-container'>
+                  <p><a target='_blank' className='link-project' href='https://practice-next-app00-pna0b7215-daniel-avila-z.vercel.app/' rel='noreferrer'>Ver online↗</a></p>
+                  <span>|</span>
+                  <p><a target='_blank' className='link-project' href='https://github.com/daniel-avila-z/practice-next-app00' rel='noreferrer'>Ver código↗</a></p>
+                </div>
               </div>
             </article>
             <article className='project-container'>
-              {/* <!-- TODO:agregar una imagen --> */}
               <div className='project-foto'>
                 <Image src={RickMorty} alt='Rick & Morty API' />
               </div>
@@ -61,13 +64,14 @@ export function Projects () {
                 <div className='text-project'>
                   <span className='hechoCon'> JS </span><span className='hechoCon'> HTML </span><span className='hechoCon'> JS </span><span className='hechoCon'> Tailwind CSS </span><span className='hechoCon'> CSS </span>
                 </div>
-                <p>
-                  <a target='_blank' className='link-project' href='https://daniel-avila-z.github.io/RickMorty-Api/' rel='noreferrer'>Ver online↗</a>
-                </p>
+                <div className='links-project-container'>
+                  <p><a target='_blank' className='link-project' href='https://daniel-avila-z.github.io/RickMorty-Api/' rel='noreferrer'>Ver online↗</a></p>
+                  <span>|</span>
+                  <p><a target='_blank' className='link-project' href='https://github.com/daniel-avila-z/RickMorty-Api' rel='noreferrer'>Ver código↗</a></p>
+                </div>
               </div>
             </article>
             <article className='project-container'>
-              {/* <!-- TODO:agregar una imagen --> */}
               <div className='project-foto'>
                 <Image src={TodoApp} alt='Todo App' />
               </div>
@@ -76,9 +80,11 @@ export function Projects () {
                 <div className='text-project'>
                   <span className='hechoCon'> React </span><span className='hechoCon'> NPM </span><span className='hechoCon'> Webpack </span><span className='hechoCon'> JS </span><span className='hechoCon'> HTML </span><span className='hechoCon'> CSS </span>
                 </div>
-                <p>
-                  <a target='_blank' className='link-project' href='https://daniel-avila-z.github.io/curso-intro-react/' rel='noreferrer'>Ver online↗</a>
-                </p>
+                <div className='links-project-container'>
+                  <p><a target='_blank' className='link-project' href='https://daniel-avila-z.github.io/curso-intro-react/' rel='noreferrer'>Ver online↗</a></p>
+                  <span>|</span>
+                  <p><a target='_blank' className='link-project' href='https://github.com/daniel-avila-z/curso-intro-react' rel='noreferrer'>Ver código↗</a></p>
+                </div>
               </div>
             </article>
           </div>

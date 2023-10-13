@@ -22,3 +22,15 @@ export function Yo () {
     </>
   )
 }
+/* <div id='storyRoot' class='mx-auto container'>
+        <iframe
+          loading='lazy'
+          title='Perseverance Rover Embed'
+          data-src='https://mars.nasa.gov/gltf_embed/25042'
+          width='100%'
+          height='400'
+          allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+          allowfullscreen='allowfullscreen'
+          src='https://mars.nasa.gov/gltf_embed/25042'
+        />
+      </div> */
