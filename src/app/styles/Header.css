@@ -64,9 +64,9 @@
 }
 header{
     width: 100%;
-    height: 140px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    height: 50px;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr; */
 }
 header .header-icon-container{
     position: fixed;
