@@ -25,7 +25,7 @@ export default function Projects () {
           <div className='projects-main-container'>
             <article className='project-container'>
               <picture className='project-foto'>
-                <Image src={FakestoreApi} alt='fakeStore' />
+                <Image placeholder='blur' loading='lazy' src={FakestoreApi} alt='fakeStore' />
               </picture>
               <div className='text-project-container'>
                 <h4 className='titulo-project'>Fake Store</h4>
@@ -41,7 +41,7 @@ export default function Projects () {
             </article>
             <article className='project-container'>
               <div className='project-foto'>
-                <Image src={NextjsPractice} alt='Practica de NextJS 13 con MiduDev' />
+                <Image placeholder='blur' loading='lazy' src={NextjsPractice} alt='Practica de NextJS 13 con MiduDev' />
               </div>
               <div className='text-project-container'>
                 <h4 className='titulo-project'>Práctica de NextJS 13</h4>
@@ -57,7 +57,7 @@ export default function Projects () {
             </article>
             <article className='project-container'>
               <div className='project-foto'>
-                <Image src={RickMorty} alt='Rick & Morty API' />
+                <Image placeholder='blur' loading='lazy' src={RickMorty} alt='Rick & Morty API' />
               </div>
               <div className='text-project-container'>
                 <h4 className='titulo-project'>Rick & Morty API</h4>
@@ -73,7 +73,7 @@ export default function Projects () {
             </article>
             <article className='project-container'>
               <div className='project-foto'>
-                <Image src={TodoApp} alt='Todo App' />
+                <Image placeholder='blur' loading='lazy' src={TodoApp} alt='Todo App' />
               </div>
               <div className='text-project-container'>
                 <h4 className='titulo-project'>Todo App</h4>

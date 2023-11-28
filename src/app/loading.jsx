@@ -13,6 +13,7 @@ export default function Loader () {
   return (
     <div className='loading-container'>
       <l-infinity
+        className='loader-img'
         size='55'
         stroke='4'
         stroke-length='0.15'

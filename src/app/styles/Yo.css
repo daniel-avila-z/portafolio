@@ -21,6 +21,7 @@
 
 .profile-foto-container{
     margin-right: 30px;
+    width: 100%;
 }
 .profile-foto-info{
     text-align: center;
@@ -34,7 +35,7 @@
     height: auto;
     object-fit: cover;
     margin-right: 30px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 .profile-main-container .profile-container{
     display: flex;

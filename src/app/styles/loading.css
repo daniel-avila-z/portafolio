@@ -15,13 +15,19 @@
   position: relative;
 }
 .loading-container{
-  position: absolute;
-height: inherit;
-text-align: center;
-padding: 100px 0px 0px 70px;
-z-index: 99;
+  background: rgb(0 51 76);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
-
+.loader-img{
+  width: 340px;
+  height: 374px;
+}
 
 
 
