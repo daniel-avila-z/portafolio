@@ -1,57 +1,26 @@
 /* eslint-disable react/jsx-no-undef */
 'use client'
-// import { useState } from 'react'
+import { useState } from 'react'
 import '../styles/Yo.css'
 import FotoYo from '../../../public/assets/img/yo2webp.webp'
 import Image from 'next/image'
-// import Loading from '../loading'
+import Loader from '../loading'
 
 export default function Yo () {
-  // const imageLoader = () => {
-  //   return (
-  //     <l-infinity
-  //       size='55'
-  //       stroke='4'
-  //       stroke-length='0.15'
-  //       bg-opacity='0.1'
-  //       speed='1.3'
-  //       color='white'
-  //     />
-  //   )
+  const [isLoading, setIsLoading] = useState(true)
+  // const cargado = () => {
+  //   return setIsLoading(false)
   // }
-  // const [isLoading, setIsLoading] = useState(true)
-
-  // const loader = () => `data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkOPv/PwAFbgLN9zc3pAAAAABJRU5ErkJggg==`
   return (
     <>
       <div className='profile-main-name'>
-        <h1>¡Hola👋!, soy <span className='profile-name'>DANIEL AVILA</span></h1>
+        <h1>¡Hola👋! soy <span className='profile-name'>DANIEL AVILA</span></h1>
       </div>
       <section className='profile-main-container'>
         <div className='grid-container  profile-container'>
           <div className='profile-foto-container'>
-            {/* {isLoading && (
-              <Loading />
-            )}
-            {setIsLoading && (
-              <Image
-                src={FotoYo}
-                alt='Imagen'
-                onLoadingComplete={() => setIsLoading(!isLoading)}
-              />
-            )} */}
-
-            {/* {isLoading && <Loading />
-              <l-infinity
-                size='55'
-                stroke='4'
-                stroke-length='0.15'
-                bg-opacity='0.1'
-                speed='1.3'
-                color='white'
-              />}
-            {isLoading && <Image onLoadingComplete={handleImageLoad} src={FotoYo} alt='mi-foto' loader={imageLoader} />} */}
-            <Image placeholder='blur' loading='lazy' src={FotoYo} alt='mi-foto' />
+            {isLoading && <Loader />}
+            <Image onLoad={() => setIsLoading()} placeholder='blur' loading='lazy' src={FotoYo} alt='mi-foto' />
             <h4 className='profile-foto-info'>21 años</h4>
           </div>
           <div className='profile-main-text'>
