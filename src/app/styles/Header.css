@@ -132,7 +132,7 @@ nav .profile-link-left a, .profile-link-right a{
 @media (max-width:617px) {
     header {
         width: 100%;
-        height: 84px;
+        /* height: 50px; */
         display: grid;
         grid-template-rows: 1fr 1fr;
     }

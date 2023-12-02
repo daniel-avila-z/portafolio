@@ -212,3 +212,21 @@
     opacity: 0.65;
   }
 }
+
+@media (max-width:425px) {
+  .skeleton-product-card-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      width: 90%;
+      height: 40%;
+      background-color: #ffffff00;
+      border-radius: 15px;
+      padding: 0px 0px 0px 0px;
+      justify-content: space-around;
+      position: absolute;
+      z-index: 300;
+      left: 30px;
+  }
+}
