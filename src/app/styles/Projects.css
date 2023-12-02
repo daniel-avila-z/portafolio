@@ -369,3 +369,27 @@
     font-size: 3rem;
 }
 }
+@media (max-width: 321px) {
+    .profile-main-projects h3 {
+        font-size: 1.5rem;
+    }
+    .titulo-project {
+        font-size: 1.5rem;
+    }
+    .hechoCon {
+        font-size: 13px;
+        color: rgb(127 255 0);
+        background: black;
+        padding: 5px;
+        margin: 1px;
+        border-radius: 3px;
+    }
+    .links-project-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+}

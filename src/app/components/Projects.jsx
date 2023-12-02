@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import '../styles/Projects.css'
-import DevGif from '../../../public/assets/gifs/developer.webp'
+// import DevGif from '../../../public/assets/gifs/developer.webp'
 import FakestoreApi from '../../../public/assets/proyectosOp/fakestore-apiPlatzi.png'
 import NextjsPractice from '../../../public/assets/proyectosOp/nextjs-practica.png'
 import RickMorty from '../../../public/assets/proyectosOp/rick&morty-api.png'
@@ -14,9 +14,9 @@ export default function Projects () {
         <div className='grid-container'>
           <div className='profile-main-gif'>
             <h3>Proyectos
-              <span>
+              {/* <span>
                 <Image className='profile-main-gif' src={DevGif} alt='gif' />
-              </span>
+              </span> */}
             </h3>
           </div>
           <div className='comentario-container'>

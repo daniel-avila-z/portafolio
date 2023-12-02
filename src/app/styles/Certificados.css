@@ -103,3 +103,8 @@
         align-items: center;
     }
 }
+@media (max-width: 321px) {
+    .profile-main-certificados h3 {
+        font-size: 1.5rem;
+    }
+}

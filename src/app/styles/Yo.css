@@ -75,6 +75,55 @@
 /* .profile-main-projects{
     padding: 0 50px 40px;
 } */
+@media (max-width: 321px) {
+    .profile-main-name h1 {
+        color: rgb(255 255 255);
+        margin: 0;
+        font-size: 25px;
+    }
+    .profile-main-name span {
+        font-size: 2rem;
+    }
+    .profile-main-container img {
+        width: 80%;
+        height: auto;
+        object-fit: cover;
+        margin: 0px;
+        border-radius: 5px;
+    }
+    .yo-h2 {
+        font-size: 18px;
+    }
+    .profile-main-projects h3 {
+        font-size: 1.5rem;
+    }
+    .titulo-project {
+        font-size: 2rem;
+    }
+    .hechoCon {
+        font-size: 13px;
+        color: rgb(127 255 0);
+        background: black;
+        padding: 5px;
+        margin: 1px;
+        border-radius: 3px;
+    }
+    .links-project-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+    .profile-main-certificados h3 {
+        font-size: 1.5rem;
+    }
+    header .header-icon-container .icons .icon {
+        width: 25px;
+        height: 25px;
+    }
+}
 
 /* Cuando la pantalla sea más chica que 768px aplica estos estilos */
 @media (max-width: 769px) {
@@ -216,7 +265,7 @@
         height: auto;
         object-fit: cover;
         margin: 0px;
-        border-radius: 30px;
+        border-radius: 10px;
     }
     /* .profile-main-foto-container{
         display: flex;
