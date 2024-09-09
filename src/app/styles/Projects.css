@@ -62,7 +62,7 @@
     border-radius: 10px;
 }
 .text-project-container {
-    width: auto;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@
 @media (max-width:750px) {
     
     .links-project-container {
-        width: 100%;
+        width: 50%;
         display: flex;
         flex-direction: row;
         align-items: center;
