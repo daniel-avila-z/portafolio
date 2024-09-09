@@ -11,15 +11,55 @@ import github from '../../../public/assets/icons/github.png'
 import Image from 'next/image'
 
 function Modal ({ setOpen }) {
-  return (
-    <div className='modal'>
-      <div className='modalContent'>
-        <h2 className='correo'>daniel.avila.dev@gmail.com</h2>
+  const [copied, setCopied] = useState(false)
+  const email = 'daniel.avila.dev@gmail.com'
 
-        <div className='close-container'>
-          <span className='close' onClick={() => setOpen(false)}>
-            Cerrar
-          </span>
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(email)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000) // Reset copied state after 2 seconds
+    } catch (err) {
+      console.error('Failed to copy email: ', err)
+    }
+  }
+
+  return (
+    <div className='w-full max-w-md'>
+      <div className='pt-6'>
+        <p className='text-center text-2xl font-semibold break-all'>{email}</p>
+      </div>
+      <div className='justify-center' />
+      <div>
+        <div className='modal'>
+          <div className='modalContent'>
+            <h2 className='correo'>daniel.avila.dev@gmail.com</h2>
+
+            <button
+              onClick={handleCopy}
+              variant='outline'
+              className='button-copy'
+              aria-label={copied ? 'Email copied to clipboard' : 'Copy email to clipboard'}
+            >
+              {copied
+                ? (
+                  <>
+                    Copiado!
+                  </>
+                  )
+                : (
+                  <>
+                    <span>Copiar</span>
+                  </>
+                  )}
+            </button>
+            <div className='close-container'>
+              <span className='close' onClick={() => setOpen(false)}>
+                Cerrar
+              </span>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
@@ -28,6 +68,19 @@ function Modal ({ setOpen }) {
 
 export function Header () {
   const [open, setOpen] = useState(false)
+
+  // const [copied, setCopied] = useState(false)
+  // const email = 'daniel.avila.dev@gmail.com'
+
+  // const handleCopy = async () => {
+  //   try {
+  //     await navigator.clipboard.writeText(email)
+  //     setCopied(true)
+  //     setTimeout(() => setCopied(false), 2000) // Reset copied state after 2 seconds
+  //   } catch (err) {
+  //     console.error('Failed to copy email: ', err)
+  //   }
+  // }
 
   return (
     <header>
