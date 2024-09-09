@@ -15,7 +15,6 @@ export default function Home ({ children }) {
       <main>
 
         <Yo />
-
         <Projects />
         <Certificados />
         {children}
