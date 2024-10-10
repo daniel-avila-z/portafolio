@@ -2,6 +2,7 @@
 'use client'
 import { useState } from 'react'
 import '../styles/Yo.css'
+import '../styles/YoBento.css'
 import FotoYo from '../../../public/assets/img/yo2webp.webp'
 import Image from 'next/image'
 import Loader from '../loading'
@@ -21,7 +22,7 @@ export default function Yo () {
           <div className='profile-foto-container'>
             {isLoading && <Loader />}
             <Image onLoad={() => setIsLoading()} placeholder='blur' loading='lazy' src={FotoYo} alt='mi-foto' />
-            <h4 className='profile-foto-info'>21 años</h4>
+            <h4 className='profile-foto-info'>22 años</h4>
           </div>
           <div className='profile-main-text'>
             <h2 className='yo-h2'>Tengo conocimientos en el lado del frontend, así como tecnologías como <span className='resaltado'>React</span>, <span className='resaltado'>NextJS</span>  y <span className='resaltado'>Tailwind</span>. He completado cursos y tutoriales, los cuales me animan a seguir desarrollando.</h2>
@@ -33,7 +34,9 @@ export default function Yo () {
     </>
   )
 }
-/* <div id='storyRoot' class='mx-auto container'>
+
+// eslint-disable-next-line no-lone-blocks
+{ /* <div id='storyRoot' class='mx-auto container'>
         <iframe
           loading='lazy'
           title='Perseverance Rover Embed'
@@ -44,4 +47,4 @@ export default function Yo () {
           allowfullscreen='allowfullscreen'
           src='https://mars.nasa.gov/gltf_embed/25042'
         />
-      </div> */
+</div> */ }
