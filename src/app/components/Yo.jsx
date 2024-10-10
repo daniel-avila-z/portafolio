@@ -2,7 +2,7 @@
 'use client'
 import { useState } from 'react'
 import '../styles/Yo.css'
-import '../styles/YoBento.css'
+// import '../styles/YoBento.css'
 import FotoYo from '../../../public/assets/img/yo2webp.webp'
 import Image from 'next/image'
 import Loader from '../loading'
