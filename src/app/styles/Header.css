@@ -1,4 +1,6 @@
-
+.curriculum{
+    object-fit: contain;
+}
 .modal {
     font-family: 'Mitr', sans-serif;
     position: fixed;

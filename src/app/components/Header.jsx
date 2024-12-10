@@ -1,6 +1,7 @@
 'use client'
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useState } from 'react'
+import Curriculum from './Curriculum'
 // import React from 'react'
 import '../styles/Header.css'
 import gmail from '../../../public/assets/icons/gmail-logo.png'
@@ -90,7 +91,6 @@ export function Header () {
                 alt='gmail'
               />
             </span>
-
           </a>
           <a href='https://www.linkedin.com/in/daniel-avila-z/' target='_blank' alt='Linkedin' rel='noreferrer'>
             <span>
@@ -124,6 +124,7 @@ export function Header () {
               <Image className='icon' src={github} alt='github' />
             </span>
           </a>
+          <Curriculum />
         </div>
       </section>
       {/* <nav>
@@ -132,7 +133,7 @@ export function Header () {
           <a href='blogs.html'>Blog</a>
         </section>
         <div className='comentario-container'>
-          <h2 className='comentario'>//Zona en construción 👨‍💻</h2>
+          <h2 className='comentario'>//Zona en construcción 👨‍💻</h2>
         </div>
         <section className='profile-link-right'>
           <a href='perfil.html'>Más sobre mí</a>
