@@ -25,9 +25,11 @@
 }
 .profile-foto-info{
     text-align: center;
-    color: rgb(0 255 255 / 65%);
-    padding: 0;
-    margin: 0;
+    color: #fff;
+    padding: 10px 0px 5px 0px;
+    margin: -10px 0px 0px 0px;
+    background: #00334c;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .profile-main-container img{
@@ -50,12 +52,15 @@
     flex-direction: row; */
 }
 .profile-main-text {
-    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: #00334C;
+    color: rgb(255 255 255);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 15px 0px 10px;
+    margin: 0px 0px 0px 10px;
     /* color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -68,6 +73,8 @@
 }
 .yo-h2{
     font-size: 28px;
+    /* text-wrap-style: balance; */
+    text-align: justify;
 }
 .yo-h3{
     font-size: 20px;
