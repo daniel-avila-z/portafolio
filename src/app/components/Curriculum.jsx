@@ -5,7 +5,7 @@ import pdficon from '../../../public/assets/icons/pdficon02.png'
 export default function Curriculum () {
   return (
     <div>
-      <a href='/curriculum/Currículum Daniel Avila 00.pdf' download='Currículum Daniel Avila 00.pdf'>
+      <a href='/curriculum/Curriculum-Daniel-Avila-00.pdf' download='Curriculum Daniel Avila 00.pdf'>
         <span>
           <Image
             className='icon curriculum'
